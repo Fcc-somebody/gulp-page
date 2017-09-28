@@ -1,0 +1,263 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+#wrap{
+   width:1080px;
+   height: 1920px;
+   background:url(../img/bg.png);
+   background-size: 100% 100%;
+   margin:0 auto;
+   position: relative;
+}
+#wrap .num{
+    position: absolute;
+    top:30px;
+    width:1080px;
+    height:120px;
+    line-height: 120px;
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    font-size:25px;
+}
+#wrap .num span{
+font-size: 35px;
+padding-right:10px;
+}
+.sum{
+    color:#33C2FC;
+}
+.dk{
+    color:#1DB688;
+}
+.pic{
+    position: absolute;
+    width:220px;
+    height: 220px;
+    /* background:#ccc; */
+    border-radius: 50%;
+    border:10px solid #4F6DA3;
+}
+.pic img{
+    width:225px;
+    height:225px;
+    border-radius: 50%;
+}
+.a1{
+    top:165px;
+    left:275px;
+}
+.a2{
+    top:295px;
+    left:55px;
+}
+.a3{
+    top:530px;
+    left:85px;
+}
+.date{
+    width: 350px;
+    height: 155px;
+    position: absolute;
+    top:300px;
+    right:0;
+    text-align: center;
+    color:#fff;
+    line-height: 50px;
+    font-size: 30px;
+}
+.time{
+    font-size: 50px;
+    font-weight: bold;
+}
+.txt{
+    width:600px;
+    height: 370px;
+    position: absolute;
+    right: 115px;
+    top:420px;
+    line-height: 30px;
+    color:#fff;
+}
+#people{
+    height: 1016px;
+    width:1080px;
+    position: absolute;
+    top:890px;
+}
+.peo{
+    width:864px;
+    height:300px;
+    background: url(../img/2.png);
+    background-size: 100% 100%;
+}
+.peo img{
+    width:200px;
+    height:200px;
+    position: absolute;
+    right: 255px;
+    top:50px;
+    border-radius: 50%;
+}
+.peo .name{
+    width:170px;
+    height:50px;
+    font-size: 40px;
+    color:#fff;
+    position: absolute;
+    left: 310px;
+    top:95px;
+
+}
+.grad{
+    width:265px;
+    height: 50px;
+    border-radius: 25px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:170px;
+    left: 255px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+}
+.grad b{
+    color:#95B3D5;
+}
+.grad span{
+    color:#DEEAFA;
+    width:40%;
+    font-weight: bold;
+    padding:0 10px;
+}
+.peo .hourDiv{
+    width:100px;
+    height:50px;
+    position: absolute;
+    top:50px;
+    left:150px;
+    color:#fff;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.peo3{
+    width:864px;
+    height:300px;
+    background: url(../img/2.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:710px;
+}
+.peo3 img{
+    width:200px;
+    height:200px;
+    position: absolute;
+    right: 45px;
+    top:50px;
+    border-radius: 50%;
+}
+.peo3 .name{
+    width:170px;
+    height:50px;
+    font-size: 40px;
+    color:#fff;
+    position: absolute;
+    left: 310px;
+    top:95px;
+
+}
+.peo3 .grad{
+    width:265px;
+    height: 50px;
+    border-radius: 25px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:170px;
+    left: 255px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+}
+.peo3 .grad b{
+    color:#95B3D5;
+}
+.peo3 .grad span{
+    color:#DEEAFA;
+    width:40%;
+    font-weight: bold;
+    padding:0 10px;
+}
+.peo3 .hourDiv{
+    width:100px;
+    height:50px;
+    position: absolute;
+    top:50px;
+    left:150px;
+    color:#fff;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.peo2{
+    width:864px;
+    height:300px;
+    background: url(../img/3.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:335px;
+}
+.peo2 img{
+    width:200px;
+    height:200px;
+    position: absolute;
+    left: 65px;
+    top:50px;
+    border-radius: 50%;
+}
+.peo2 .name{
+    width:170px;
+    height:50px;
+    font-size: 40px;
+    color:#fff;
+    position: absolute;
+    left: 485px;
+    top:95px;
+
+}
+.peo2 .grad{
+    width:265px;
+    height: 50px;
+    border-radius: 25px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:170px;
+    left: 415px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+}
+/* .peo2 .grad b{
+    color:#95B3D5;
+} */
+.peo2 .grad span{
+    color:#DEEAFA;
+    width:40%;
+    font-weight: bold;
+    padding:0 10px;
+}
+.peo2 .hourDiv{
+    width:100px;
+    height:50px;
+    position: absolute;
+    top:50px;
+    right:55px;
+    color:#fff;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
